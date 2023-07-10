@@ -1,0 +1,27 @@
+body {
+	font-family: "Poppins";
+}
+
+/* general container ============================================= */
+/* 1920 px max width */
+/* 100px page padding */
+.container {
+	padding: 0 15px;
+}
+@media (min-width: 768px) {
+	.container {
+		padding: 0 30px;
+	}
+}
+@media (min-width: 1200px) {
+	.container {
+		padding: 0 60px;
+	}
+}
+@media (min-width: 1920px) {
+	.container {
+		padding: 0 100px;
+	}
+}
+
+/*  */
