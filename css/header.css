@@ -147,7 +147,7 @@
 		column-gap: 20px;
 	}
 	.header__link {
-		padding: 3px 12px;
+		padding: 3px 11px;
 	}
 }
 @media (max-width: 767.98px) {
@@ -164,6 +164,7 @@
 	}
 	.header__menu.active {
 		top: 0;
+
 	}
 	.header__list {
 		height: 100%;
