@@ -123,7 +123,7 @@
     font-size: 20px;
   }
   .footer__links {
-    flex-direction: column;
-    row-gap: 20px;
+    flex-wrap: wrap;
+    gap: 20px;
   }
 }
