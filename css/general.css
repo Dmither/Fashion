@@ -1,7 +1,8 @@
-html,
 body {
 	font-family: "Poppins";
 	background-color: #fefefe;
+	display: flex;
+	flex-direction: column;
 }
 
 /* general container ============================================= */
@@ -27,13 +28,7 @@ body {
 }
 
 /*  */
-.wrapper {
-	min-height: 100%;
-	display: flex;
-	flex-direction: column;
-	overflow: hidden;
-}
+
 .main {
-	flex: 1 0 auto;
-	min-height: 10px;
+	flex: 1 1 auto;
 }
