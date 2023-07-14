@@ -1,0 +1,121 @@
+.footer {
+	background-color: #000;
+}
+.footer__container {
+	padding-top: 119px;
+	padding-bottom: 147px;
+	display: flex;
+}
+.footer__main {
+	flex: 1 0 auto;
+}
+.footer__logo {
+	display: inline-block;
+	margin-bottom: 32px;
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 1.2px;
+	color: #fff;
+	transition: all 0.2s ease 0s;
+}
+.footer__logo:hover,
+.footer__logo:focus {
+	outline: none;
+	color: #ebd96b;
+}
+.footer__text {
+	margin-bottom: 32px;
+	font-family: "Roboto";
+	max-width: 415px;
+	font-size: 24px;
+	line-height: 1.67;
+	letter-spacing: 0.48px;
+	color: #8e8e8e;
+}
+.footer__sotials {
+	display: flex;
+	-moz-column-gap: 14px;
+	column-gap: 14px;
+}
+.footer__sotial rect {
+	transition: all 0.2s ease 0s;
+}
+.footer__sotial:focus {
+	outline: none;
+}
+.footer__sotial:hover rect,
+.footer__sotial:focus rect {
+	fill: #fff;
+	rx: 7px;
+}
+.footer__links {
+	display: flex;
+	-moz-column-gap: 168px;
+	column-gap: 168px;
+}
+.footer__column {
+	font-family: "Roboto";
+	font-size: 24px;
+	line-height: 1.667;
+	letter-spacing: 0.48px;
+}
+.footer__title {
+	padding: 6px 10px 16px;
+  color: #d9d9d9;
+}
+.footer__list {
+}
+.footer__link {
+	display: block;
+	padding: 16px 10px;
+	transition: all 0.2s ease 0s;
+  color: #8e8e8e;
+}
+.footer__link:hover,
+.footer__link:focus {
+	outline: none;
+	background-color: #ebd96b;
+  color: #000;
+}
+@media (max-width: 1919.98px) {
+  .footer__links {
+    -moz-column-gap: 100px;
+    column-gap: 100px;
+  }
+}
+@media (max-width: 1599.98px) {
+  .footer__links {
+    -moz-column-gap: 45px;
+    column-gap: 45px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .footer__container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+  }
+  .footer__text {
+    max-width: 100%;
+  }
+  .footer__sotials {
+    margin-bottom: 40px;
+  }
+  .footer__links {
+    justify-content: space-between;
+    -moz-column-gap: 0;
+         column-gap: 0;
+  }
+  .footer__title {
+    padding: 0 10px 5px;
+  }
+  .footer__link {
+    padding: 5px 10px;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer__links {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}
