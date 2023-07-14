@@ -86,6 +86,34 @@
 	background-position: bottom center;
 	background-repeat: no-repeat;
 }
+.hero__img div:nth-child(1) {
+  top: 0;
+  left: -20px;
+}
+.hero__img div:nth-child(2) {
+  top: 36px;
+  right: 157px;
+}
+.hero__img div:nth-child(3) {
+  bottom: 34px;
+  left: -23px;
+}
+.hero__img div:nth-child(4) {
+  bottom: 100px;
+  right: 83px;
+}
+
+@media (min-width: 1200px) {
+  .hero__img div:nth-child(1),
+  .hero__img div:nth-child(2),
+  .hero__img div:nth-child(3),
+  .hero__img div:nth-child(4){
+    width: 58px;
+    height: 56px;
+    position: absolute;
+    background-image: url(../img/hero-star.svg);
+  }
+}
 
 @media (max-width: 1599.98px) {
 	.hero__main {
