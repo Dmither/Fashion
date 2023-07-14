@@ -71,6 +71,7 @@
 }
 .hero__btn:hover,
 .hero__btn:focus {
+	outline: none;
 	border-radius: 0;
 	color: #ebd96b;
 }
