@@ -153,10 +153,6 @@
     aspect-ratio: 1 / 1;
     margin-bottom: 10px;
   }
-  .arivals__img img {
-    -o-object-position: center 25%;
-    object-position: center 25%;
-  }
   .arrivals__card-title {
     line-height: 1;
     margin-bottom: 0px;
