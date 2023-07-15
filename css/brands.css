@@ -13,30 +13,6 @@
 .brands img {
   mix-blend-mode: multiply;
 }
-.brands li:nth-child(1) img {
-  width: 119px;
-  height: 71px;
-}
-.brands li:nth-child(2) img {
-  width: 151px;
-  height: 23px;
-}
-.brands li:nth-child(3) img {
-  width: 177px;
-  height: 63px;
-}
-.brands li:nth-child(4) img {
-  width: 236px;
-  height: 71px;
-}
-.brands li:nth-child(5) img {
-  width: 128px;
-  height: 71px;
-}
-.brands li:nth-child(6) img {
-  width: 167px;
-  height: 64px;
-}
 @media (max-width: 1199.98px) {
   .brands {
     padding-top: 40px;
