@@ -34,6 +34,9 @@
   display: grid;
   grid-template-columns: 1fr 32px;
 }
+.favourite__card:focus {
+  outline: none;
+}
 .favourite__card-img {
   position: relative;
   overflow: hidden;
