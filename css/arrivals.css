@@ -143,8 +143,9 @@
   }
   .arrivals__cards {
     flex-wrap: wrap;
-    /* flex-direction: column; */
     row-gap: 20px;
+    -moz-column-gap: 48px;
+         column-gap: 48px;
   }
   .arrivals__card {
     max-width: 290px;
@@ -156,9 +157,5 @@
   .arrivals__card-title {
     line-height: 1;
     margin-bottom: 0px;
-    font-size: 24px;
-  }
-  .arrivals__card-explore {
-    font-size: 18px;
   }
 }
