@@ -31,6 +31,9 @@
   max-width: 484px;
   grid-template-columns: 1fr 32px;
 }
+.arrivals__card:focus {
+  outline: none;
+}
 .arivals__img {
   grid-column: span 2;
 	margin-bottom: 28px;
